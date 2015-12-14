@@ -35,5 +35,6 @@ rm -rf $RPM_BUILD_ROOT
 #%files -f INSTALLED_FILES
 %files
 /usr/lib/python2.7/site-packages/*
+/usr/bin/jwt
 %defattr(-,root,root)
 
